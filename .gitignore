@@ -1,0 +1,33 @@
+# Build artifacts
+build/
+*.o
+*.d
+*.a
+
+# Generated data and fitted models. Everything here is reproducible from the
+# CLI in a few minutes, and the event logs run to tens of megabytes, so they
+# are regenerated rather than committed:
+#
+#   ./build/vane-sim --weeks 26 --jitter 0.22 --out data/train
+#   python3 analysis/export_model.py --data data/train --out models/logistic.txt
+#   ./build/vane-backtest --model models/logistic.txt --seeds 5 --ablate --csv data/backtest.csv
+#   python3 analysis/run_phase4.py --generations 5
+data/
+models/
+
+# The figures in docs/ ARE committed on purpose: the README embeds them, and a
+# reader browsing on GitHub will not have run anything.
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+compile_commands.json
