@@ -60,7 +60,7 @@ flow and compare revenue, market share, and how much risk each one ends the day
 holding. Then close the loop: let the deployed policy generate the data its own
 successor learns from, and watch what that does.
 
-**Phase 5 (optional) — hedging.** Route the desk's hedge orders into the Hawkes
+**Future work — microstructure-aware hedging.** Route the desk's hedge orders into the Hawkes
 limit-order-book simulator so the cost of hedging is modelled rather than
 assumed.
 
