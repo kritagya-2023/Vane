@@ -5,7 +5,7 @@ client-specific two-way price, in place of the static daily rate sheet that
 Indian banks still publish.
 
 The problem comes from a live rate snapshot taken on 6 July 2026 with interbank
-USD/INR at 95.29. Every bank in the panel quoted one rate to everybody, all day:
+USD/INR at 95.29. Every bank/fintech in the panel quoted one rate to everybody, all day:
 
 | Provider    | Buy   | Buy margin | Sell  | Sell margin |
 |-------------|-------|------------|-------|-------------|
